@@ -20,5 +20,5 @@ jobs:
       - name: "파일 목록 출력"
         run: ls -la
       - name: "Secret 참조"
-        run: 
+        run: |
           echo "Secret 앞 3자리: ${{ secrets.MY_SECRET }}"
