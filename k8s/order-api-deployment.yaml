@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: order-api
-          image: <ACR_NAME>.azurecr.io/order-api:PLACEHOLDER
+          image: acrbsm11.azurecr.io/order-api:1a9546b
           ports:
             - containerPort: 8080
           env:
